@@ -26,8 +26,8 @@ public class Paseo{
 
     public static ArrayList<Paseo> VerPaseosDisponibles(Paseo[] paseos, double presupuesto) {
         ArrayList<Paseo> paseosDisponibles = new ArrayList<>();
-        final int precioKm = 375000;
         int costoPaseo;
+        final int precioKm = 375000;
         if (paseos != null) {
             for (Paseo i : paseos) {
                 if (i != null) {
